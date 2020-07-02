@@ -18,11 +18,11 @@ app.get("/api/workouts", (req, res) => {
     
 });
 
-app.post("/api/workouts", (req, res) => {
+app.post("/api/workouts", ({ body }, res) => {
     
 });
 
-app.post("/exercise", (req, res) => {
+app.post("/exercise", ({ body }, res) => {
     
 });
 
@@ -30,6 +30,6 @@ app.post("/exercise/:id", (req, res) => {
     
 });
 
-app.put("/api/workouts", (req, res) => {
+app.put("/api/workouts", ({ body }, res) => {
     
 });
